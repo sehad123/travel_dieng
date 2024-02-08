@@ -60,11 +60,18 @@ header {
   padding: 2rem 9%;
 }
 
+#lokasi {
+  margin-top: 30px;
+}
+
+#tiket {
+  margin-top: 30px;
+}
 header .logo {
   font-size: 2.5rem;
   font-weight: bolder;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 header .logo span {
@@ -158,7 +165,7 @@ header .search-bar-container label:hover {
 .login-form-container form h3 {
   font-size: 3rem;
   color: #444;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   padding: 1rem 0;
 }
@@ -222,6 +229,35 @@ header .search-bar-container label:hover {
   cursor: pointer;
   display: none;
 }
+#info {
+  margin-top: 20px;
+}
+.deskripsi {
+  width: 80%;
+  margin-top: -50px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+}
+
+#fasilitas {
+  margin-top: 40px;
+}
+#fasilitas ol {
+  list-style-type: square;
+  font-size: 2rem;
+  margin: 20px;
+  color: #666;
+}
+.deskripsi p {
+  font-size: 2rem;
+  color: #666;
+}
+
+.deskripsi h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 
 .home {
   display: flex;
@@ -242,11 +278,14 @@ header .search-bar-container label:hover {
   color: #fff;
   padding: 0.5rem 0;
 }
-
+.footer h3,
+.footer a {
+  text-align: center;
+}
 .home .content h3 {
   font-size: 4.5rem;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
@@ -312,6 +351,8 @@ header .search-bar-container label:hover {
 }
 .book .row form {
   flex: 1 1 40rem;
+  margin-top: 40px;
+  height: 500px;
   padding: 2rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
@@ -320,9 +361,19 @@ header .search-bar-container label:hover {
 .book .row form .inputBox {
   padding: 0.5rem 0;
 }
-
+.book select {
+  height: 60px;
+  font-size: 1.7rem;
+  text-align: center;
+  border: 1rem solid rgba(0, 0, 0, 0.1);
+}
+.book .btn {
+  margin-top: 30px;
+  width: 100%;
+}
 .book .row form .inputBox input {
   width: 100%;
+  text-align: center;
   padding: 1rem;
   border: 1rem solid rgba(0, 0, 0, 0.1);
   font-size: 1.7rem;
@@ -428,6 +479,7 @@ header .search-bar-container label:hover {
 .gallery .box-container .box .content h3 {
   font-size: 2.5rem;
   color: var(--orange);
+  margin-top: 30px;
 }
 .gallery .box-container .box .content p {
   font-size: 1.5rem;
@@ -499,7 +551,7 @@ header .search-bar-container label:hover {
 }
 
 .contact .row form .inputBox input,
-.contact .row form textarea {
+select .contact .row form textarea {
   width: 49%;
   margin: 1rem 0;
   padding: 1rem;
@@ -508,14 +560,23 @@ header .search-bar-container label:hover {
   background: #f7f7f7;
   text-transform: none;
 }
+select {
+  width: 100%;
+}
 
 .contact .row form textarea {
+  background: #f7f7f7;
   height: 15rem;
   resize: none;
+  border: 2px solid #eee;
+  padding: 10px;
   width: 100%;
 }
 .footer {
   background: #333;
+}
+.box .btn {
+  margin-top: 25px;
 }
 .footer .box-container {
   display: flex;
@@ -541,7 +602,7 @@ header .search-bar-container label:hover {
 }
 .footer .box-container .box a {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 0.7rem 0;
   color: #eee;
 }
@@ -562,10 +623,16 @@ header .search-bar-container label:hover {
 .footer .credit span {
   color: var(--orange);
 }
+iframe {
+  margin-top: 40px;
+}
 
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
+  }
+  .deskripsi {
+    margin: auto;
   }
 }
 
@@ -577,11 +644,29 @@ header .search-bar-container label:hover {
   section {
     padding: 2rem;
   }
+  .deskripsi {
+    margin: auto;
+  }
+  iframe {
+    width: 100%;
+    margin: auto;
+  }
+  .home img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
   #menu-bar {
     display: initial;
+  }
+
+  iframe {
+    margin: auto;
+  }
+
+  .deskripsi {
+    margin: auto;
   }
 
   header .navbar {
