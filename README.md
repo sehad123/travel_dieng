@@ -10,3 +10,5 @@ Cara Instalasi Web:
 4. Jalankan file index.html di visual studio code
 5. Halaman web akan muncul
 
+
+![image](https://github.com/sehad123/web_travel/assets/152146277/56d98853-0099-4145-964a-2fd86afeabd2)
