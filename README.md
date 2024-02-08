@@ -9,6 +9,8 @@ Kelas : 3SI3
 Tim : Sehad
 
 
+
+
 - Cara Instalasi Web:
 
 1. download folder zip di link github : https://github.com/sehad123/web_travel/
@@ -22,7 +24,10 @@ Tim : Sehad
 5. Halaman web akan muncul
 
 
+
+
 - Screenshoot Tampilan Desktop
+
 
   a. Halaman Home
 
@@ -50,7 +55,9 @@ Tim : Sehad
 
 
 
+
 - Screenshoot Tampilan Tablet
+
 
   a. Halaman Home
 
@@ -69,7 +76,9 @@ Tim : Sehad
 ![image](https://github.com/sehad123/web_travel/assets/152146277/74ba02fa-59cc-4af1-8f47-976f7028bb50)
 
 
+
 - Screenshoot Halaman HP
+
 
   a. Halaman Home
 
